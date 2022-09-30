@@ -8,6 +8,7 @@ const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
 const productDetailContainer = document.querySelector('#productDetail');
 const cardsContainer = document.querySelector('.cards-container');
 
+
 menuEmail.addEventListener('click', toggleDesktopMenu);
 menuHamIcon.addEventListener('click', toggleMobileMenu);
 menuCarritoIcon.addEventListener('click', toggleCarritoAside);
@@ -62,19 +63,54 @@ function closeProductDetailAside() {
 
 const productList = [];
 productList.push({
-    name: 'Bike',
-    price: 120,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    name: 'Juguete Antiestres Y Kawaii',
+    price: 791,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_649662-MLA50177027791_062022-F.webp',
 });
 productList.push({
-    name: 'Bike 2',
-    price: 180,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    name: 'Cortante Galleta Cookie Reposteria Huella Hueso',
+    price: 750,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_975077-MLA48112048726_112021-F.webp',
 });
 productList.push({
-    name: 'Bike 3',
-    price: 250,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    name: 'Cubiertos Metalicos Con Baño De Plata',
+    price: 11690,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_947012-MLA42681726834_072020-F.webp',
+});
+productList.push({
+    name: 'Almohadón Deco 40 X 40 Cm',
+    price: 3200,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_698105-MLA49720556209_042022-F.webp',
+});
+productList.push({
+    name: 'Dije de plata',
+    price: 3090,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_883357-MLA51145469563_082022-F.webp',
+});
+productList.push({
+    name: 'Colchoncito 40x68 cm',
+    price: 1850,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_903354-MLA49776143114_042022-F.webp',
+});
+productList.push({
+    name: 'Llavero de plata',
+    price: 2800,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_780445-MLA32885364843_112019-F.webp',
+});
+productList.push({
+    name: 'Maceta decorativa',
+    price: 2553,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_668274-MLA43993660483_112020-F.webp',
+});
+productList.push({
+    name: 'Sweatter especial para perritos',
+    price: 3500,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_950964-MLA50266402174_062022-F.webp',
+});
+productList.push({
+    name: 'Amigurumi Perro Salchicha',
+    price: 2000,
+    image: 'https://http2.mlstatic.com/D_NQ_NP_2X_753726-MLA50411564027_062022-F.webp',
 });
 
 function renderProducts(arr){
